@@ -1,0 +1,83 @@
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.1s;
+  
+}
+li:last-child {
+  border: none;
+}
+
+li:hover {
+  font-size: 30px;
+  background: #CDCCCC;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+label input {
+  margin-top: 5px;
+}
+#redBar {
+  background-color: #CE2501;
+  cursor: pointer;
+}
+.buttonCanc {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.buttonCanc:hover {
+  background-color: #f44336;
+  color: white;
+}
+.buttonConfirm {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.buttonConfirm:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonBack {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.buttonBack:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.inputLong {
+  width: 50%;
+}
+.nav {
+  background-color: #D50000;
+}
+.navTit {
+  float: left; 
+  color: black; 
+  margin-left: 10px;
+}
+img {
+  margin: 1.3em;
+}

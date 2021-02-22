@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo list TB</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body onload="" style="padding: 10px;">
+    <div class="nav">
+      <a href="index.html" >
+        <h1 class="navTit">To Do List x TrueBlue</h1>
+        <img src="home.png" width="35" height="35" alt="">
+        </a>
+    </div>
+    <h1>Aggiungi un elemento</h1>
+
+    <form>
+        
+        <label for="fname">Titolo*</label><br>
+        <input type="text" id="title" name="fname" value="" class="inputLong"><br><br>
+        <label for="lname">Descrizione</label><br>
+        <input type="text" id="description" name="lname" value="" class="inputLong"><br><br>
+        <label for="lname">Data di scadenza*</label><br>
+        <input type="date" id="expiringDate" name="lname" value=""><br><br>
+        <label for="lname">Stato*</label><br>
+        <select name="" id="status">
+            <option value="Inserito">Inserito</option>
+            <option value="In elaborazione">In elaborazione</option>
+            <option value="Completato">Completato</option>
+        </select>
+        <br>
+        <br>
+      </form> 
+      <button id="modBtn" type="button" class="buttonCanc" onclick="history.back()">Annulla</button>
+      <button type="button" id="modBtn" class="buttonConfirm" onclick="addElement()">Aggiungi</button>
+
+    <script type="text/javascript" src="functions.js"></script>
+  </body>

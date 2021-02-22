@@ -7,8 +7,7 @@ Da terminale andare nella diretory server e, avendo già node installato sulla m
 2. npm install express
 3. npm install mongoose@5.11.15
 4. npm install morgan
-5. npm install nodemon
-6. npm start
+5. node app.js
 
 # Visionare To Do List
 Una volta terminati i passaggi precedenti è possibile aprire il file index.html e navigare all'interno della to do list.

@@ -1,7 +1,7 @@
 # TrueBlueCodeChallenge
 
 # Prima di iniziare
-Da terminale andare nella diretory server e, avendo già node installato sulla macchina, digitare:
+Da terminale andare nella diretory server e, avendo node installato sulla macchina, digitare:
 
 1. npm install body-parser
 2. npm install express

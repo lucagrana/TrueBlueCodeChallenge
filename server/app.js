@@ -8,7 +8,7 @@ const listRoutes = require('./api/routes/list');
 
 mongoose.connect(
     'mongodb+srv://dbUserTB:' + 
-    process.env.MONGO_ATLAS_PW + 
+    'trueblue' +  
     '@trueblue-codechallenge.g70j4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(bodyParser.urlencoded({extended: false}));
